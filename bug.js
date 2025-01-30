@@ -1,0 +1,1 @@
+This bug occurs when using the FlatList component in React Native and trying to update the data dynamically.  The FlatList may not re-render properly after data changes, resulting in the UI not reflecting the updated data. This is often due to improper key management, shallow comparison issues, or improper usage of `extraData` prop.
